@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         savedInstanceState.putInt("win_count", win_count);
         savedInstanceState.putInt("current_question", current_question);
         savedInstanceState.putBoolean("new_question", new_question);
+        savedInstanceState.putBoolean("solution_seen", solution_seen);
         super.onSaveInstanceState(savedInstanceState);
     }
 
@@ -35,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         win_count = savedInstanceState.getInt("win_count");
         current_question = savedInstanceState.getInt("current_question");
         new_question = savedInstanceState.getBoolean("new_question");
+        solution_seen = savedInstanceState.getBoolean("solution_seen");
     }
 
     @Override
