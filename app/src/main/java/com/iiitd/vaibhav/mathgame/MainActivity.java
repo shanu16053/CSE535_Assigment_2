@@ -17,7 +17,7 @@ import android.widget.Toast;
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
-
+     int gg=100 \\hacktober
     int win_count = 0, current_question = -1;
     boolean new_question = false, solution_seen = false, sol = false;
 
